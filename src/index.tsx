@@ -28,11 +28,11 @@ const tools: Record<string, Tool> = {
   // For more tips on using Tools, see: https://docs.ai-jsx.com/tutorial/part7-tools
   lookUpLinguisticsFieldBestPracticesKnowledgeBase: FixieCorpus.createTool(
     HANDBOOK_CORPUS_ID,
-    "A tool for looking additional information to help answer the user query."
+    "A tool for learning how to document languages while doing linguistic fieldwork."
   ),
   lookUpEndangeredLanguages: FixieCorpus.createTool(
     ENDANGERED_LIST_CORPUS_ID,
-    "A tool for looking up endangered and dying languages."
+    "A tool for looking up a list of known endangered and dying languages."
   ),
   lookUpAustria: FixieCorpus.createTool(
     AUSTRIA_COUNTRY_ID,
