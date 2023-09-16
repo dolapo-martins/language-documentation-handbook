@@ -12,8 +12,9 @@ import { Sidekick } from "ai-jsx/sidekick";
 //    tell me about foxes and what they eat
 //    what is the fennec fox like? how big do they get?
 //    who is foxie?
-const HANDBOOK_CORPUS_ID: string = "1979a574-c005-446d-a2f0-5f82a340264c";
+const HANDBOOK_CORPUS_ID: string = "28d916b2-ac80-44c5-a965-8101c0f11b6b";
 const ENDANGERED_LIST_CORPUS_ID: string = "1045f09f-e237-4074-ae4d-a5ef97f98d24";
+const AUSTRIA_COUNTRY_ID: string = "a5c1ab82-9c4c-46d6-bac8-b686fef0b31e";
 
 if (!HANDBOOK_CORPUS_ID) {
   throw new Error("Please set a FIXIE_CORPUS_ID in src/index.tsx");
@@ -33,6 +34,10 @@ const tools: Record<string, Tool> = {
     ENDANGERED_LIST_CORPUS_ID,
     "A tool for looking up endangered and dying languages."
   ),
+  lookUpAustria: FixieCorpus.createTool(
+    AUSTRIA_COUNTRY_ID,
+    "A tool for looking up endangered and dying languages in Austria only."
+  )
   /*
   anotherPossibleTool: {
     description:
