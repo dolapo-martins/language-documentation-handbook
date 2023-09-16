@@ -12,7 +12,7 @@ import { Sidekick } from "ai-jsx/sidekick";
 //    tell me about foxes and what they eat
 //    what is the fennec fox like? how big do they get?
 //    who is foxie?
-const HANDBOOK_CORPUS_ID: string = "28d916b2-ac80-44c5-a965-8101c0f11b6b";
+const HANDBOOK_CORPUS_ID: string = "31083406-0001-49d1-aafd-fee6130eeb49";
 const ENDANGERED_LIST_CORPUS_ID: string = "1045f09f-e237-4074-ae4d-a5ef97f98d24";
 const AUSTRIA_COUNTRY_ID: string = "a5c1ab82-9c4c-46d6-bac8-b686fef0b31e";
 
