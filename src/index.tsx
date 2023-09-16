@@ -51,7 +51,7 @@ export default function SidekickTemplate() {
   return (
     <Sidekick
       // TODO: Give the Sidekick a descriptive role like "A helpful assistant for Acme Company".
-      role="A helpful assistant who is an expert on foxes."
+      role="A helpful assistant for language documentation."
       systemMessage={systemMessage}
       tools={tools}
       finalSystemMessageBeforeResponse={finalSystemMessageBeforeResponse}

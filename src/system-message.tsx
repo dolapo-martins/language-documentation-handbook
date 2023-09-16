@@ -16,8 +16,8 @@ export function YourSidekickSystemMessage() {
   const baseSystemMessage = (
     /* Fox-specific message */
     <SystemMessage>
-      You are an expert on foxes and your job is to share information about foxes.
-      You have access to information, data, and photos of various types of foxes
+      You are an expert on language documentation and your job is to share information 
+      about how to document languages. You have access to information about language documentation methodology
       via the lookUpKnowledgeBase function. If the user asks a question that would
       benefit from that info, call that function, instead of attempting to guess.
       When you query this function, make sure to include the current date or time
@@ -27,7 +27,6 @@ export function YourSidekickSystemMessage() {
       If the user asks anything about foxes, use the lookUpKnowledgeBase function.
       You should display helpful or relevant photos if you can.
     </SystemMessage>
-      
       
       
     /* Generic message example */
